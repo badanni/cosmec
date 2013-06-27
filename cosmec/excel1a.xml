@@ -1,0 +1,1541 @@
+<?xml version="1.0" ?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+    <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+        <Author>COSMEC</Author>
+        <LastAuthor>COSMEC</LastAuthor>
+        <Created>2013-06-05T15:20:15Z</Created>
+        <Version>14</Version>
+    </DocumentProperties>
+    <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+        <AllowPNG />
+    </OfficeDocumentSettings>
+    <Styles>
+        <Style ss:ID="Default" ss:Name="Normal">
+            <Alignment ss:Vertical="Bottom" />
+            <Borders />
+            <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+            <Interior />
+            <NumberFormat />
+            <Protection />
+        </Style>
+        <Style ss:ID="s16">
+            <Alignment ss:Horizontal="Center" ss:Vertical="Center" />
+            <Borders />
+        </Style>
+        <Style ss:ID="s18">
+            <Alignment ss:Horizontal="Center" ss:Vertical="Center" />
+            <Borders>
+                <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#76933C" />
+                <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#76933C" />
+                <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#76933C" />
+                <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3" />
+            </Borders>
+            <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Bold="1" />
+            <Interior ss:Color="#C4D79B" ss:Pattern="Solid" />
+        </Style>
+        <Style ss:ID="s19">
+            <Alignment ss:Horizontal="Center" ss:Vertical="Center" />
+            <Borders>
+                <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#76933C" />
+                <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#76933C" />
+                <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#76933C" />
+                <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#76933C" />
+            </Borders>
+        </Style>
+        <Style ss:ID="s20">
+            <Alignment ss:Horizontal="Center" ss:Vertical="Center" />
+            <Borders>
+                <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#76933C" />
+            </Borders>
+            <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Bold="1" />
+            <Interior ss:Color="#C4D79B" ss:Pattern="Solid" />
+        </Style>
+        <Style ss:ID="s21">
+            <Alignment ss:Horizontal="Center" ss:Vertical="Center" />
+            <Borders>
+                <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#76933C" />
+                <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#76933C" />
+                <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#76933C" />
+            </Borders>
+            <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Bold="1" />
+            <Interior ss:Color="#C4D79B" ss:Pattern="Solid" />
+        </Style>
+        <Style ss:ID="s22">
+            <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+            <Borders>
+                <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#76933C" />
+                <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#76933C" />
+                <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#76933C" />
+                <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3" />
+            </Borders>
+            <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Bold="1" />
+            <Interior ss:Color="#C4D79B" ss:Pattern="Solid" />
+            <NumberFormat ss:Format="@" />
+        </Style>
+        <Style ss:ID="s23">
+            <Alignment ss:Horizontal="Center" ss:Vertical="Center" />
+            <Borders>
+                <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3" />
+                <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3" />
+            </Borders>
+            <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FFFFFF" />
+            <Interior ss:Color="#76933C" ss:Pattern="Solid" />
+        </Style>
+    </Styles>
+    <Worksheet ss:Name="Maquinas">
+        <Table ss:ExpandedColumnCount="199" ss:ExpandedRowCount="200" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
+            <Row />
+            <Row ss:Height="25">
+                <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s23">
+                    <Data ss:Type="String">Escuela Politecnica del Ejercito</Data>
+                </Cell>
+            </Row>
+            <Row ss:Height="15">
+                <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s23">
+                    <Data ss:Type="String">Departamento de ciencias de la energia y mecanica</Data>
+                </Cell>
+            </Row>
+            <Row />
+            <Row ss:Height="30">
+                <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s23">
+                    <Data ss:Type="String">SERVICIOS GENERALES</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="25">
+                <Cell ss:StyleID="s18" ss:Index="2">
+                    <Data ss:Type="String">Serie</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Modelo</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo Inicial</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Tiempo de vida</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Horas de trabajo anual</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Depreciacion anual</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo hora</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="Number">3016</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">117310.56</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">10</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">1920</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">11731.056</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">12.22</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="Number">1640</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">46540</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">10</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">1920</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">4654</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">4.85</Data>
+                </Cell>
+            </Row>
+        </Table>
+    </Worksheet>
+    <Worksheet ss:Name="Consumibles y Herrameintas">
+        <Table ss:ExpandedColumnCount="199" ss:ExpandedRowCount="2000" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
+            <Row />
+            <Row ss:Height="25">
+                <Cell ss:Index="2" ss:MergeAcross="7" ss:StyleID="s23">
+                    <Data ss:Type="String">Escuela Politecnica del Ejercito</Data>
+                </Cell>
+            </Row>
+            <Row ss:Height="15">
+                <Cell ss:Index="2" ss:MergeAcross="7" ss:StyleID="s23">
+                    <Data ss:Type="String">Departamento de ciencias de la energia y mecanica</Data>
+                </Cell>
+            </Row>
+            <Row />
+            <Row ss:Height="30">
+                <Cell ss:Index="2" ss:MergeAcross="7" ss:StyleID="s23">
+                    <Data ss:Type="String">HERRAMIENTAS</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="25">
+                <Cell ss:StyleID="s18" ss:Index="2">
+                    <Data ss:Type="String">Maquina</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Nombre</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Valor</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Vida util</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Depreciacion</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Valor Hora</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Depreciacion Hora</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo Hora</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Cono BT-40 porta Roseta-27</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">90.28</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">4</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">22.57</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.05</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.01</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.06</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Cono BT-40 porta Roseta-22</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">90.28</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">4</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">22.57</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.05</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.01</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.06</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Cono BT-40 porta Roseta-25</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">75</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">4</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">18.75</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.04</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.01</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.05</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Cono BT-40 porta Pinza-ER32</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">90</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">4</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">22.5</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.05</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.01</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.06</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Pull stud(tirantes) a 45</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">10.27</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">4</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">22.57</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.01</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.01</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Set de pinzas ER 32(18 piezas)3-20mm</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">225</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">4</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">56.25</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.13</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.03</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.15</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Portaherramienta MWLNR 2525 M08</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">39.2</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">4</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">9.8</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.02</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.01</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.03</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Portaherramienta MTJNR 2525 M16</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">39.2</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">4</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">9.8</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.02</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.01</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.03</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Portaherramienta MDJNR 2525 M15</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">39.2</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">4</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">9.8</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.02</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.01</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.03</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Porta de tronzado y ranurado LT</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">285</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">4</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">71.25</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.15</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.04</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.19</Data>
+                </Cell>
+            </Row>
+            <Row />
+            <Row ss:Height="30">
+                <Cell ss:Index="2" ss:MergeAcross="3" ss:StyleID="s23">
+                    <Data ss:Type="String">CONSUMIBLES</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="25">
+                <Cell ss:StyleID="s18" ss:Index="2">
+                    <Data ss:Type="String">Maquina</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Nombre</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Valor</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo Hora</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Fresa planear LT 610-M-W-D80/6</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">582</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.3</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Fresa de escuadra LT730-M-W-D50</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">396</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.21</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Fresa de alto avance LT 900 W-W-D25/3 Roseta</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">349</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.18</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Fresa de alto avance LT 900 M-W-D250/6 Roseta</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">571</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.3</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Fresa de ranurado LT720 W-W-D16/2</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">224</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.12</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Fresa de ranurado LT720 W-W-D25/3</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">238</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.12</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Insertos SEKT 12T3 AGSN LT 30</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">10.84</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.01</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Insertos APKT 1604 PDRT LT 30</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">10.84</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.01</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Insertos APKT 160424 ER LT 30</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">10.84</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.01</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Insertos SNKX 09T3 -HF</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">17.61</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.01</Data>
+                </Cell>
+            </Row>
+        </Table>
+    </Worksheet>
+    <Worksheet ss:Name="Mantenimiento">
+        <Table ss:ExpandedColumnCount="199" ss:ExpandedRowCount="2000" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
+            <Row />
+            <Row ss:Height="25">
+                <Cell ss:Index="2" ss:MergeAcross="4" ss:StyleID="s23">
+                    <Data ss:Type="String">Escuela Politecnica del Ejercito</Data>
+                </Cell>
+            </Row>
+            <Row ss:Height="15">
+                <Cell ss:Index="2" ss:MergeAcross="4" ss:StyleID="s23">
+                    <Data ss:Type="String">Departamento de ciencias de la energia y mecanica</Data>
+                </Cell>
+            </Row>
+            <Row />
+            <Row ss:Height="30">
+                <Cell ss:Index="2" ss:MergeAcross="4" ss:StyleID="s23">
+                    <Data ss:Type="String">MANTENIMIENTO PREVENTIVO</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="25">
+                <Cell ss:StyleID="s18" ss:Index="2">
+                    <Data ss:Type="String">Nombre</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Maquina</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Valor</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Cantidad Anual</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo M. Preventivo</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Castrol Magda BD68</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">31.49</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">94.47</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Hidraulic oil 32</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">31.49</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">41.91</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Uni Lube 32</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">31.49</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">1</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">71.58</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Tecnico</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">31.49</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">1800</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">filtro</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">10</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">4</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">40</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Mobil shc #32</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">17.29</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">69.16</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">External Filter</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">31.49</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">135</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Dow Frost</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">31.49</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">150</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Mobil dte heavy medium</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">31.49</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">348</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Castrol Magda BD68</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">31.49</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">94.47</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Fanuc A02B-0200-K102</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">31.49</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">4</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">66</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Mobil shc #32</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">17.29</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">69.16</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Dow Frost</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">31.49</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">150</Data>
+                </Cell>
+            </Row>
+            <Row />
+            <Row ss:Height="30">
+                <Cell ss:Index="2" ss:MergeAcross="4" ss:StyleID="s23">
+                    <Data ss:Type="String">MANTENIMIENTO</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="25">
+                <Cell ss:StyleID="s18" ss:Index="2">
+                    <Data ss:Type="String">Maquina</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Presupuesto M. Correctivo</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo M. Correctivo</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo M. Preventivo</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo Total Mantenimiento</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">1500</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.78125</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">1.4508333</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">2.2320833</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">1500</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.78125</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.2</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.98125</Data>
+                </Cell>
+            </Row>
+        </Table>
+    </Worksheet>
+    <Worksheet ss:Name="Servicios y Mano de Obra">
+        <Table ss:ExpandedColumnCount="199" ss:ExpandedRowCount="2000" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
+            <Row />
+            <Row ss:Height="25">
+                <Cell ss:Index="2" ss:MergeAcross="7" ss:StyleID="s23">
+                    <Data ss:Type="String">Escuela Politecnica del Ejercito</Data>
+                </Cell>
+            </Row>
+            <Row ss:Height="15">
+                <Cell ss:Index="2" ss:MergeAcross="7" ss:StyleID="s23">
+                    <Data ss:Type="String">Departamento de ciencias de la energia y mecanica</Data>
+                </Cell>
+            </Row>
+            <Row />
+            <Row ss:Height="30">
+                <Cell ss:Index="2" ss:MergeAcross="7" ss:StyleID="s23">
+                    <Data ss:Type="String">SERVICIOS GENERALES</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="25">
+                <Cell ss:StyleID="s18" ss:Index="2">
+                    <Data ss:Type="String">Maquina</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Consumo Agua Anual</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo m3 de Agua</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Consumo Energia</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo Kwh</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo Agua</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo Energia</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo Hora</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">100</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.68</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">11.2</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.08</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.04</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.88</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.92</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">50</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.68</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">12</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.08</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.0177083</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.96</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.9777083</Data>
+                </Cell>
+            </Row>
+            <Row />
+            <Row ss:Height="30">
+                <Cell ss:Index="2" ss:MergeAcross="4" ss:StyleID="s23">
+                    <Data ss:Type="String">MANO DE OBRA</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="25">
+                <Cell ss:StyleID="s18" ss:Index="2">
+                    <Data ss:Type="String">Maquina</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Horas Mes</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Salario Mensual</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo Mensual</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo Hora</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Mantenimiento</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">60</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">420.65</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">7.01</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Operacion de la maquinaria</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">60</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">420.65</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">7.01</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Programar</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">40</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">150</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3.75</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">FADAL VMC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Mantenimiento ayudante</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">60</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">150</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">2.5</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Mantenimiento</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">60</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">420.65</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">7.01</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Operacion de la maquinaria</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">60</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">420.65</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">7.01</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Programar</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">40</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">150</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3.75</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Mantenimiento ayudante</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">60</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">150</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">2.5</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">VIWA VTC</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Inspeccion</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">40</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">280.44</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">7.01</Data>
+                </Cell>
+            </Row>
+            <Row />
+            <Row ss:Height="30">
+                <Cell ss:Index="2" ss:MergeAcross="4" ss:StyleID="s23">
+                    <Data ss:Type="String">ACTIVIDADES DE TRABAJO</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="25">
+                <Cell ss:StyleID="s18" ss:Index="2">
+                    <Data ss:Type="String">Nombre</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Cargo</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Horas Mes</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo Mensual</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo Hora</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Entrega de productos terminados</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Ayudante</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">10</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">100</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">10</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Bodegaje</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Ayudante</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">40</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">100</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">2.5</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Limpieza2</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Ayudante</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">20</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">50</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">2.5</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Mantenimiento ayudante</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Ayudante</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">60</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">150</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">2.5</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Servicios administracion</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Disenador</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">40</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">150</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3.75</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Disenar</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Disenador</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">60</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">225</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3.75</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Programar</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Disenador</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">40</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">150</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3.75</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Promocion de servicios</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Disenador</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">20</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">75</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3.75</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Mantenimiento</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Laboratorista</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">60</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">420.65</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">7.01</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Inspeccion</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Laboratorista</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">40</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">280.44</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">7.01</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Operacion de la maquinaria</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Laboratorista</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">60</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">420.65</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">7.01</Data>
+                </Cell>
+            </Row>
+        </Table>
+    </Worksheet>
+    <Worksheet ss:Name="Actividades">
+        <Table ss:ExpandedColumnCount="199" ss:ExpandedRowCount="2000" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
+            <Row />
+            <Row ss:Height="25">
+                <Cell ss:Index="2" ss:MergeAcross="2" ss:StyleID="s23">
+                    <Data ss:Type="String">Escuela Politecnica del Ejercito</Data>
+                </Cell>
+            </Row>
+            <Row ss:Height="15">
+                <Cell ss:Index="2" ss:MergeAcross="2" ss:StyleID="s23">
+                    <Data ss:Type="String">Departamento de ciencias de la energia y mecanica</Data>
+                </Cell>
+            </Row>
+            <Row />
+            <Row ss:Height="30">
+                <Cell ss:Index="2" ss:MergeAcross="2" ss:StyleID="s23">
+                    <Data ss:Type="String">ACTIVIDADES</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="25">
+                <Cell ss:StyleID="s18" ss:Index="2">
+                    <Data ss:Type="String">Nombre</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Categoria</Data>
+                </Cell>
+                <Cell ss:StyleID="s18">
+                    <Data ss:Type="String">Costo Hora</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Transporte</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Logística de envío de productos</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">6</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Bodeguero</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Logística de envío de productos</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.62</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Costo de logística</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Almacenamiento de productos en bodegas</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Asistente</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Atención de cotizaciones</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.93</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Capacitaciones del personal</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Capacitación</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">3.65</Data>
+                </Cell>
+            </Row>
+            <Row ss:AutoFitHeight="1" ss:Height="15">
+                <Cell ss:StyleID="s19" ss:Index="2">
+                    <Data ss:Type="String">Promoción de servicios</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="String">Promoción</Data>
+                </Cell>
+                <Cell ss:StyleID="s19">
+                    <Data ss:Type="Number">0.47</Data>
+                </Cell>
+            </Row>
+        </Table>
+    </Worksheet>
+</Workbook>
